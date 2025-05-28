@@ -1,0 +1,48 @@
+.form {
+	margin-bottom: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	font-weight: 600;
+	font-size: 14px;
+	color: #333;
+}
+
+.input,
+.textarea {
+	margin-top: 4px;
+	padding: 8px 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	resize: vertical;
+}
+
+.input:focus,
+.textarea:focus {
+	outline: none;
+	border-color: #409eff;
+	box-shadow: 0 0 3px #409eff;
+}
+
+.button {
+	width: 140px;
+	padding: 8px;
+	font-weight: 700;
+	font-size: 16px;
+	background-color: #409eff;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+}
+
+.button:disabled {
+	background-color: #a0cfff;
+	cursor: not-allowed;
+}

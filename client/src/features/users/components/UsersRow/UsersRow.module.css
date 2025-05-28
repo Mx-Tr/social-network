@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	overflow-x: auto;
+	gap: 16px;
+	padding-bottom: 8px;
+}
+
+.userCard {
+	flex: 0 0 auto;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.avatar {
+	width: 64px;
+	height: 64px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 28px;
+	user-select: none;
+	margin: 0 auto 4px;
+}
+
+.username {
+	font-size: 14px;
+	white-space: nowrap;
+}

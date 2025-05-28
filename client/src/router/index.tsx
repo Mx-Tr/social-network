@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from '../pages/Home';
-import { UserProfile } from '../pages/UserProfile';
+import { Route, Routes } from 'react-router-dom';
+import { Home } from '../pages/Home/Home';
+import { UserProfile } from '../pages/UserProfile/UserProfile';
 
 export const AppRouter = () => (
     <Routes>

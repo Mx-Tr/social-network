@@ -1,0 +1,31 @@
+.card {
+	padding: 16px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background: white;
+	max-width: 400px;
+}
+
+.username {
+	margin: 0 0 8px 0;
+	font-size: 22px;
+}
+
+.email {
+	margin: 0 0 16px 0;
+	color: #666;
+}
+
+.button {
+	padding: 8px 12px;
+	font-weight: 700;
+	background-color: #409eff;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #3a8dde;
+}
